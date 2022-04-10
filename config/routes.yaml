@@ -1,0 +1,61 @@
+
+#main endpoints
+list:
+    path: /api/v1/list
+    controller: App\Controller\DefaultController::getAll
+    methods: [GET]
+
+getspecificAuthor:
+    path: /api/v1/{id}
+    controller: App\Controller\DefaultController::getspecificAuthor
+    methods: [GET]
+
+assign_book_to_author:
+    path: /api/v1/assign
+    controller: App\Controller\DefaultController::assignBookToAuthor
+    methods: [POST]
+
+
+#   book endpoints
+book_list:
+    path: /api/v1/book/list
+    controller: App\Controller\BookController::bookList
+    methods: [GET]
+
+create_book:
+    path: /api/v1/book/create
+    controller: App\Controller\BookController::createBook
+    methods: [POST]
+
+update_book:
+    path: /api/v1/book/update/{id}
+    controller: App\Controller\BookController::updateBook
+    methods: [PUT]
+
+delete_book:
+    path: /api/v1/book/delete/{id}
+    controller: App\Controller\BookController::deleteBook
+    methods: [GET]
+
+
+#   author_list endpoints
+author_list:
+    path: /api/v1/author/list
+    controller: App\Controller\AuthorController::authorList
+    methods: [GET]
+
+create_author:
+    path: /api/v1/author/create
+    controller: App\Controller\AuthorController::createAuthor
+    methods: [POST]
+
+update_author:
+    path: /api/v1/author/update/{id}
+    controller: App\Controller\AuthorController::updateAuthor
+    methods: [PUT]
+
+
+delete_author:
+    path: /api/v1/author/delete/{id}
+    controller: App\Controller\AuthorController::deleteAuthor
+    methods: [GET]

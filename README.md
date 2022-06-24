@@ -30,4 +30,7 @@ VB is a ..........................
 <p>This filters are called in one signal function called  <mark>all_Vbs_list_based_ON_url</mark>.</p>
 
 > Gesellschaften.php ----<mark>Liste der Gesellschaft</mark>
-<p>Insurance companies we have in our database and you can active and inactive the company and also you can edit the company details  .</p>
+<p>Insurance companies we have in our database and you can <b>active</b> and <b>inactive</b> the company and also you can edit the company details  .</p>
+
+> exclusion.php ----<mark>Liste der blockierten Benutzer</mark>
+<p>List of blocked users and you can change the blocked users status and you can also blocked new user from this page  .</p>

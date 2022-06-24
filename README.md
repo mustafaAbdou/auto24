@@ -16,7 +16,7 @@ VB is a ..........................
 <h3>In charts page you have a statistics board which give you an overview to companies statistics in the last 6 months .</h3>
 
 > Vbs-list.php ----<mark>VBs List</mark>
-<p>have list of all Vbs you have in Database and you can have some filtering like  .</p>
+<p>Have list of all Vbs you have in Database and you can have some filtering like  .</p>
 
 <ul>
     <li>All</li>
@@ -27,4 +27,7 @@ VB is a ..........................
     <li>VB-Nummer/Name</li>
 </ul>
 
-<p>this filters are called in one signal function called  <mark>all_Vbs_list_based_ON_url</mark>.</p>
+<p>This filters are called in one signal function called  <mark>all_Vbs_list_based_ON_url</mark>.</p>
+
+> Gesellschaften.php ----<mark>Liste der Gesellschaft</mark>
+<p>Insurance companies we have in our database and you can active and inactive the company and also you can edit the company details  .</p>

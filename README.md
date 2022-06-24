@@ -7,6 +7,6 @@ VB is a ..........................
 
 ## Here we have a web page desciption 
 
-###### index.php
+> index.php
 
-><sub>This is a subscript text</sub>
+<sub>This is a subscript text</sub>
